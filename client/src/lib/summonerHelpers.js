@@ -1,0 +1,1 @@
+export const isValidSummonerName = (summonerName) => summonerName.length > 0 && summonerName.length <= 16 && /^[\da-zA-Z _.]+$/g.test(summonerName);

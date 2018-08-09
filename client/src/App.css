@@ -1,0 +1,33 @@
+.stats-app {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.container-fluid {
+  padding: 25px;
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: #010a13;
+  border-top: 1px solid #a28e59;
+  color: #a28e59;
+  padding: 15px;
+  margin-bottom: 0px;
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.footer span {
+  width: 80%;
+  margin: 0px auto;
+}

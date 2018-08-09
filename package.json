@@ -1,0 +1,22 @@
+{
+  "name": "summoner-stats",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1",
+    "nodemon": "^1.18.3"
+  }
+}

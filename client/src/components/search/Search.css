@@ -1,0 +1,24 @@
+h1 {
+  font-size: 50px;
+}
+
+.content {
+  margin: 30px auto 0px auto;
+  max-width: 600px;
+}
+
+.greetings {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+hr {
+  margin: 50px 15px;
+  opacity: 0.5;
+  border: none;
+  border-bottom: 1px solid #f0e5d1;
+}
+
+.details {
+  flex-grow: 1;
+}

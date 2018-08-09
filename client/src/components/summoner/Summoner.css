@@ -1,0 +1,33 @@
+.summoner-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.summoner-avatar {
+  border: 2px solid;
+  border-color: #8F7514 #C9A932;
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.summoner-avatar .summoner-level {
+  position: absolute;
+  left: calc(50% - 15px);
+  bottom: -15px;
+  width: 30px;
+  height: 30px;
+  background: #010a13;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: #8F7514 #C9A932;
+  color: #C9A932;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+.search-bar {
+  margin: -25px -25px 25px -25px;
+  background-color: #010a13;
+  border-bottom: 1px solid #a28e59;
+  color: #a28e59;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar .search-form {
+  margin: 0px;
+}
